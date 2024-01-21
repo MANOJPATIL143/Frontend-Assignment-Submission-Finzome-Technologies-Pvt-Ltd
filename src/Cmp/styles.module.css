@@ -1,0 +1,128 @@
+
+.formContainer {
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  /* Style for each form element */
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 1px;
+    border-radius: 4px;
+    
+  }
+  
+  .form input {
+    width: 80%;
+    padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .checkboxLabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .radioLabel {
+    margin-right: 10px;
+  }
+  
+  .submitButton {
+    grid-column: span 2;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submitButton:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    /* Adjust the form layout for smaller screens */
+    .form {
+      grid-template-columns: 1fr;
+    }
+  
+    .submitButton {
+      grid-column: span 1;
+    }
+  }
+  
+  /* Additional styles for overall responsiveness */
+  body {
+    font-size: 16px; /* Set a base font size */
+  }
+  
+  .app {
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .table {
+    overflow-x: auto;
+  }
+  
+  /* styles.module.css */
+
+/* ... (previous styles) */
+
+/* Table styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .actionButton {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .actionButton:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Add more styles based on your preference */
+  
